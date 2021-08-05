@@ -36,7 +36,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Run selected code in neighboring tmux pane e.g. ipython
     Plug 'jpalardy/vim-slime', { 'for': 'python' }
 
-
+    " Deoplete and jedi code completion
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    Plug 'davidhalter/jedi-vim'
+    Plug 'zchee/deoplete-jedi'
 
     " Themes, colors
     " Plug 'joshdick/onedark.vim'
