@@ -41,6 +41,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'davidhalter/jedi-vim'
     Plug 'zchee/deoplete-jedi'
 
+    " Move seamlessly between vin and tmux panes using C+[hjkl]
+    Plug 'christoomey/vim-tmux-navigator'
+
     " Themes, colors
     " Plug 'joshdick/onedark.vim'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
