@@ -55,6 +55,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Move seamlessly between vin and tmux panes using C+[hjkl]
     Plug 'christoomey/vim-tmux-navigator'
 
+    " Debugging inside nvim
+    Plug 'mfussenegger/nvim-dap'
+    Plug 'mfussenegger/nvim-dap-python'
+
     " Themes, colors
     " Plug 'joshdick/onedark.vim'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }

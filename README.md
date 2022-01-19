@@ -21,7 +21,7 @@ Two options are available in vim-plug/plugins.vim
 
 ## TODO
 - [OpenAI-Codex-based autocompletion](https://github.com/jameshiew/nvim-magic) - its actually added but commented. Consider creating an alias for *nv* instead of having to export OPENAI_API_KEY before running nvim.  
-- [Debugging](https://github.com/mfussenegger/nvim-dap)  
+- [Debugging](https://github.com/mfussenegger/nvim-dap) - setup keybindings; configure home directory.  
 - [ShellCheck](https://github.com/koalaman/shellcheck) - shell script syntax checking
 
 
