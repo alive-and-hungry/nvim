@@ -37,9 +37,20 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jpalardy/vim-slime', { 'for': 'python' }
 
     " Deoplete and jedi code completion
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-    Plug 'davidhalter/jedi-vim'
-    Plug 'zchee/deoplete-jedi'
+    " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    " Plug 'davidhalter/jedi-vim'
+    " Plug 'zchee/deoplete-jedi'
+    
+    " Alternative code completion
+    Plug 'prabirshrestha/vim-lsp'
+    Plug 'mattn/vim-lsp-settings'
+    Plug 'prabirshrestha/asyncomplete.vim'
+    Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
+    " Use OpenAI Codex for additional autocompletion
+    " Plug 'nvim-lua/plenary.nvim'
+    " Plug 'MunifTanjim/nui.nvim'
+    " Plug 'jameshiew/nvim-magic'
 
     " Move seamlessly between vin and tmux panes using C+[hjkl]
     Plug 'christoomey/vim-tmux-navigator'

@@ -22,4 +22,5 @@ source $HOME/.config/nvim/themes/material.vim
 " source $HOME/.config/nvim/themes/spaceduck.vim
 source $HOME/.config/nvim/plug-config/vim-slime.vim
 source $HOME/.config/nvim/plug-config/deoplete.vim
+" source $HOME/.config/nvim/plug-config/nvim-magic.vim
 
