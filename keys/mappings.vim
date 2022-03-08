@@ -12,3 +12,6 @@ nnoremap <leader>l :ls<CR>:b<space>
 nnoremap <leader>/ :Commentary<CR>
 vnoremap <leader>/ :Commentary<CR>
 
+" pressing enter when no auto-complete pop-up elem. is selected inserts
+" newline
+inoremap <expr> <CR> pumvisible() ? (complete_info().selected == -1 ? '<C-y><CR>' : '<C-y>') : '<CR>'
