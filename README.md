@@ -1,9 +1,12 @@
 # nvim
 Neovim config files.
 
-Based on https://www.chrisatmachine.com/Neovim/01-vim-plug/
+Directory structure etc. based on https://www.chrisatmachine.com/Neovim/01-vim-plug/
 
-Install Neovim simply by downloading the latest nvim.appimage and creating a symlink to run nvim via 'nv':  
+Install Neovim simply by downloading the latest nvim.appimage from:
+https://github.com/neovim/neovim/releases/tag/v0.6.1
+
+Create a symlink to run nvim via 'nv':
 sudo ln -s ~/programs/nvim/nvim.appimage /usr/bin/nv
 
 ## Manual changes
@@ -19,9 +22,10 @@ sudo ln -s ~/programs/nvim/nvim.appimage /usr/bin/nv
 ## Autocompletion
 Two options are available in vim-plug/plugins.vim
 
+
 ## TODO
-- [OpenAI-Codex-based autocompletion](https://github.com/jameshiew/nvim-magic) - its actually added but commented. Consider creating an alias for *nv* instead of having to export OPENAI_API_KEY before running nvim.  
-- [Debugging](https://github.com/mfussenegger/nvim-dap) - setup keybindings; configure home directory.  
+- [Debugging](https://github.com/mfussenegger/nvim-dap) - fix the error (?) that when using the env. created specifically for debugpy (as suggested in nvim-dap installation instructions) that env. is used while debugging instead of the active one.
+- [OpenAI-Codex-based autocompletion](https://github.com/jameshiew/nvim-magic) - its actually added but commented. Consider creating an alias for *nv* instead of having to export OPENAI_API_KEY before running nvim.
 - [ShellCheck](https://github.com/koalaman/shellcheck) - shell script syntax checking
 
 
