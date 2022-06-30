@@ -51,6 +51,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'nvim-lua/plenary.nvim'
     " Plug 'MunifTanjim/nui.nvim'
     " Plug 'jameshiew/nvim-magic'
+    
+    " GitHub Copilot
+    Plug 'github/copilot.vim'
 
     " Move seamlessly between vin and tmux panes using C+[hjkl]
     Plug 'christoomey/vim-tmux-navigator'
@@ -58,6 +61,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debugging inside nvim
     Plug 'mfussenegger/nvim-dap'
     Plug 'mfussenegger/nvim-dap-python'
+    Plug 'rcarriga/nvim-dap-ui'
 
     " Themes, colors
     " Plug 'joshdick/onedark.vim'
