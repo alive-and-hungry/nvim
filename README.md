@@ -3,8 +3,8 @@ Neovim config files.
 
 Directory structure etc. based on https://www.chrisatmachine.com/Neovim/01-vim-plug/
 
-Install Neovim simply by downloading the latest nvim.appimage from:
-https://github.com/neovim/neovim/releases/tag/v0.6.1
+Install Neovim simply by downloading the latest nvim.appimage from
+https://github.com/neovim/neovim/releases/tag/v0.6.1 and extracting to ~/programs/nvim
 
 Create a symlink to run nvim via 'nv':
 sudo ln -s ~/programs/nvim/nvim.appimage /usr/bin/nv
