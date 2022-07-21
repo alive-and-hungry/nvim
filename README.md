@@ -15,7 +15,7 @@ Create a symlink to run nvim via 'nv':
 ## Manual changes
 ~./config/nvim/autoload/... is ignored, so any changes done in there need to be manually applied.
 
-- material.vim colors (.../autoload/plugged/material.vim). Visualize colors under: http://lawlesscreation.github.io/hex-color-visualiser/
+- material.vim colors (.../autoload/plugged/material.vim/colors/material.vim). Visualize colors under: http://lawlesscreation.github.io/hex-color-visualiser/
   - make the material.vim background black
     modify line 88 to 'gui': '#000000'
   - increase material.vim line number & comment brightness
