@@ -24,7 +24,7 @@ Copy/paste support
 > sudo apt install xsel
 > ```
 
-Python support (figure out if it needs to be done for every Anaconda env. or what)
+Python support (needs to be installed in every conda env.)
 
 > ```
 > pip install pynvim
