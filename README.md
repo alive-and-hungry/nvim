@@ -13,7 +13,7 @@ Change to executable:
 
 Create a symlink to run nvim via 'nv':
 > ```
-> sudo ln -s ~/programs/nvim/nvim.appimage /usr/bin/nv
+> sudo ln -s ~/opt/nvim/nvim.appimage /usr/bin/nv
 > ```
 
 **Additional installs**
