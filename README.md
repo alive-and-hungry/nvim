@@ -11,7 +11,7 @@ Change to executable:
 > chmod u+x nvim.appimage && ./nvim.appimage
 > ```
 
-Create a symlink to run nvim via 'nv':
+Create a symlink to run nvim via 'nv' (if the appimage cannot be run because of a newer FUSE version being installed, unpack the appimage as described in the nvim install webpage and create a symlink to the binary in the squash.../bin directory:
 > ```
 > sudo ln -s ~/opt/nvim/nvim.appimage /usr/bin/nv
 > ```
