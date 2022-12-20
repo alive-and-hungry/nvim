@@ -7,46 +7,48 @@ Directory / file structure based on https://www.chiarulli.me/Neovim/01-vim-plug/
 Install Neovim simply by downloading the latest nvim.appimage from
 https://github.com/neovim/neovim/releases/ and moving it to ~/programs/nvim/  
 Change to executable:
-> ```
-> chmod u+x nvim.appimage && ./nvim.appimage
-> ```
+```
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+```
 
 Create a symlink to run nvim via 'nv' (if the appimage cannot be run because of a newer FUSE version being installed, unpack the appimage as described in the nvim install webpage and create a symlink to the binary in the squash.../bin directory:
-> ```
-> sudo ln -s ~/opt/nvim/nvim.appimage /usr/bin/nv
-> ```
+```
+sudo ln -s ~/opt/nvim/nvim.appimage /usr/bin/nv
+```
 
 **Additional installs**
 
 Copy/paste support
 
-> ```
-> sudo apt install xsel
-> ```
+```
+sudo apt install xsel
+```
 
 Python support (needs to be installed in every conda env.)
 
-> ```
-> pip install pynvim
-> ```
+```
+pip install pynvim
+```
 
 ### Config
 
 Go to ~/.config and
-> ```
-> git clone https://github.com/filiso/nvim.git
-> ```
+```
+git clone https://github.com/filiso/nvim.git
+```
 
 Install vim-plug
-> ```
-> curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-> ```
+```
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
 
 Run
-> ```
-> :checkhealth
-> :PlugInstall
-> ```
+```
+:checkhealth
+:PlugInstall
+```
 
 ## Manual changes
 ~./config/nvim/autoload/... is ignored, so any changes done in there need to be manually applied.
