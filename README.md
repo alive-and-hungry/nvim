@@ -9,6 +9,7 @@ I'm trying this as an alternative:
 - https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
 - video introduction to the kickstart repo https://www.youtube.com/watch?v=stqUbv-5u2s
 - to remove it, remove also ~/.local/state/nvim and ~/.local/share/nvim
+- in line 339 local servers, add 'pylsp = {},' and then follow https://github.com/williamboman/mason-lspconfig.nvim/blob/main/lua/mason-lspconfig/server_configurations/pylsp/README.md
 
 
 ## Installation
