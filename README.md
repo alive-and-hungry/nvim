@@ -3,6 +3,11 @@ Neovim config files.
 
 Directory / file structure based on https://www.chiarulli.me/Neovim/01-vim-plug/
 
+**Alternative**
+I'm trying this as an alternative:
+- https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua
+- video introduction to the kickstart repo https://www.youtube.com/watch?v=stqUbv-5u2s
+
 ## Installation
 Install Neovim simply by downloading the latest nvim.appimage from
 https://github.com/neovim/neovim/releases/ and moving it to ~/programs/nvim/  
